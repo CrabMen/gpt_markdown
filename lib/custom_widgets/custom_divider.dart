@@ -101,4 +101,10 @@ class RenderDivider extends RenderBox {
       Paint()..color = _color,
     );
   }
+
+  @override
+  double? computeDryBaseline(TextBaseline baseline, double width) {
+  // Divider 没有基线，通常返回 null 或 0
+   return 0.0;
+ }
 }
