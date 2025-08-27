@@ -103,7 +103,7 @@ class RenderDivider extends RenderBox {
   }
 
   @override
-  double? computeDryBaseline(BoxConstraints constraints) {
+  double? computeDryBaseline(BoxConstraints constraints, TextBaseline baseline) {
     return 0.0;
   }
 }
