@@ -68,7 +68,7 @@ class _CodeFieldState extends State<CodeField> {
               ),
             ],
           ),
-          const Divider(height: 1),
+          // const Divider(height: 1),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             padding: const EdgeInsets.all(16),
